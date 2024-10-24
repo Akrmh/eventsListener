@@ -5,6 +5,23 @@ body{
     height: 100vh;
     margin: 0;
 }
+#liftnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 10vw;
+    height: 40vh;
+    background-color: #ccc;
+    border-radius: 20px;
+    color: rgb(49, 79, 180);
+    font-size: 20px;
+    
+    }
+    #liftnav a{
+    font-size: 12px;
+    color: rgb(49, 79, 180);
+    }
 #container{
     display: flex;
     flex-direction:column;
@@ -12,7 +29,8 @@ body{
     width: 50vw;
     height: 50vh;
     margin: 5% auto;
-    border-radius: 10px;
+    border-radius: 40px;
+    background-color: #ccc;
 }
 #container #result, h1{
     text-align: center;
@@ -27,6 +45,7 @@ body{
     border: 2px solid rgb(49, 79, 180);
 }
 #container button{
+    color: white;
     width: 40%;
     background-color:rgb(49, 79, 180) ;
 }
